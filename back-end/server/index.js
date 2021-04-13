@@ -11,7 +11,7 @@ const cookieParser = require('cookie-parser');
 app.use(cors());
 app.use(cookieParser());
 app.use(express.json());
-app.use(express.static(__dirname + '/../kitchen/dist/'));
+app.use(express.static(__dirname + '/../../front-end/client/dist/darek-kitchen'));
 
 
 
